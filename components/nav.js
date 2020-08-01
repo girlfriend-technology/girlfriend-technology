@@ -1,12 +1,14 @@
 import React from 'react'
 import NavItem from './nav-item'
+import Logo from '../public/static/mask-icon.svg'
 
 const cx = {
   header: 'fw3 mb3 h2',
   nav: 'pa3 fixed db w-100 left-0 flex justify-between',
-  name: 'i no-underline underline-hover',
+  name: 'i no-underline underline-hover db',
   left: 'flex items-center',
-  right: 'flex-grow flex items-center'
+  right: 'flex-grow flex items-center',
+  logo: 'v-mid dib mr1 stroke-current'
 }
 
 const Nav = () => (
@@ -18,7 +20,11 @@ const Nav = () => (
           href='/'
           title='girlfriend technology'
         >
-          {'💖 girlfriend technology'}
+          <Logo
+            className={cx.logo}
+            width='1.5rem'
+          />
+          girlfriend technology
         </NavItem>
       </div>
       <div className={cx.right}>

@@ -27,7 +27,7 @@ const Layout = ({ title, description, children, className, light, dark }) => {
         <meta property='og:image:width' content='1200' />
         <link rel='apple-touch-icon' href='/static/apple-touch-icon.png' />
         <link rel='icon' href='/static/favicon.ico' />
-        <link rel='mask-icon' sizes='any' href='/static/mask-icon.svg' color='#00d6ff' />
+        <link rel='mask-icon' sizes='any' href='/static/mask-icon.svg' color={light} />
       </Head>
       {children}
       <style jsx global>
@@ -41,6 +41,9 @@ const Layout = ({ title, description, children, className, light, dark }) => {
           }
           nav {
             background-image: linear-gradient(0deg, rgba(255,255,255,0), rgba(255,255,255,0.15));
+          }
+          .stroke-current path {
+            stroke: currentColor;
           }
         `}
       </style>

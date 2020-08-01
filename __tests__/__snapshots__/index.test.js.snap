@@ -2,7 +2,7 @@
 
 exports[`page - index should render 1`] = `
 <main
-  className="jsx-2239995928 sans-serif mw8 center"
+  className="jsx-2036497186 sans-serif mw8 center"
 >
   <header
     className="jsx-3038145414 fw3 mb3 h2"
@@ -14,13 +14,28 @@ exports[`page - index should render 1`] = `
         className="jsx-3038145414 flex items-center"
       >
         <a
-          className="link f6 f5-ns dib mr3 underline i no-underline underline-hover"
+          className="link f6 f5-ns dib mr3 underline i no-underline underline-hover db"
           href="/"
           onClick={[Function]}
           onMouseEnter={[Function]}
           title="girlfriend technology"
         >
-          💖 girlfriend technology
+          <svg
+            className="v-mid dib mr1 stroke-current"
+            clipRule="evenodd"
+            fillRule="evenodd"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            viewBox="0 0 32 32"
+            width="1.5rem"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.472 3.35c-4.082 0-7.441 3.358-7.441 7.44 0 8.166 6.046 14.884 13.395 14.884a12 12 0 0 0 3.668-.575M4.007 10.791c0 6.532 4.703 11.906 10.419 11.906m5.953-16.371c2.45 0 4.465 2.015 4.465 4.465m2.153 5.11c.532-1.597.824-3.319.824-5.11 0-4.083-3.36-7.442-7.442-7.442-3.266 0-5.953 2.688-5.953 5.953 0-3.265-2.688-5.953-5.954-5.953m13.567 7.442c0 4.899-4.03 8.93-8.93 8.93 4.9 0 8.93 4.03 8.93 8.93 0-4.9 4.032-8.93 8.93-8.93-4.898 0-8.93-4.031-8.93-8.93"
+              fill="none"
+            />
+          </svg>
+          girlfriend technology
         </a>
       </div>
       <div
@@ -48,7 +63,7 @@ exports[`page - index should render 1`] = `
     </nav>
   </header>
   <div
-    className="fw9 i f-subheadline ph3 pt6 mw6 center"
+    className="fw9 i f-subheadline ph3 pt6 mw6 center lh-title"
   >
     👭 apps for us 👩‍❤️‍💋‍👩
   </div>
