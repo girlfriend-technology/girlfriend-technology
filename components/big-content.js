@@ -7,7 +7,7 @@ const cx = {
 }
 
 const BigContent = ({ children, className, style }) => (
-  <article 
+  <article
     className={`${cx.article} ${className}`}
     style={style}
   >

@@ -64,11 +64,42 @@ exports[`page - index should render 1`] = `
       </div>
     </nav>
   </header>
-  <div
-    className="fw9 i f-subheadline ph3 pv6 mw6 center lh-title hyphens-auto"
+  <article
+    className="vh-75 dt w-100 cover fw9 i f1 ph3 pv6 mw6 tc center lh-title hyphens-auto"
+    style={Object {}}
   >
-    👭 girlfriend technology 👩‍❤️‍💋‍👩
-  </div>
+    <div
+      className="dtc v-mid"
+    >
+      <svg
+        className="v-mid stroke-current trace"
+        clipRule="evenodd"
+        fillRule="evenodd"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        viewBox="0 0 16 16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M4.268 1.729A3.706 3.706 0 0 0 .58 5.418c0 4.047 2.997 7.378 6.64 7.378.629 0 1.239-.1 1.818-.285M2.055 5.418c0 3.238 2.331 5.902 5.165 5.902m2.951-8.116c1.214 0 2.213 1 2.213 2.214m1.067 2.533a8.002 8.002 0 0 0 .408-2.533 3.706 3.706 0 0 0-3.688-3.689A2.965 2.965 0 0 0 7.22 4.68a2.966 2.966 0 0 0-2.952-2.951m6.726 3.689c0 2.428-1.998 4.426-4.427 4.426 2.429 0 4.427 1.999 4.427 4.427 0-2.428 1.998-4.427 4.426-4.427-2.428 0-4.426-1.998-4.426-4.426"
+          fill="none"
+          stroke="#000"
+          strokeWidth=".5"
+        />
+      </svg>
+      <span
+        className="f1 measure-narrow lh-title mv0 pa1 tracked-tight "
+        style={
+          Object {
+            "backgroundColor": "#3a0023",
+            "color": "#ff72c6",
+          }
+        }
+      >
+        apps for us
+      </span>
+    </div>
+  </article>
   <footer
     className="left-0 right-0 absolute w-100 fw3 pv5 tc i"
   >

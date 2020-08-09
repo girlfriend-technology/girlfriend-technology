@@ -21,7 +21,7 @@ BoxedText.propTypes = {
   children: PropTypes.node,
   className: PropTypes.string,
   light: PropTypes.string,
-  dark: PropTypes.string,
+  dark: PropTypes.string
 }
 
 BoxedText.defaultProps = {
