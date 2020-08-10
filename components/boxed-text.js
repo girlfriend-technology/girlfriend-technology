@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const cx = {
-  span: 'f1 measure-narrow lh-title mv0 pa1 tracked-tight'
+  span: 'f1 measure-narrow lh-title mb1 dib  pa1 tracked-tight'
 }
 
 const BoxedText = ({ children, className, light, dark }) => (

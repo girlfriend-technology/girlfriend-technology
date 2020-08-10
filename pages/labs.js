@@ -7,7 +7,8 @@ import BoxedText from '../components/boxed-text'
 
 const cx = {
   main: 'mw8 center',
-  content: 'fw9 i f1 ph3 pv6 mw6 tc center lh-title hyphens-auto'
+  content: 'fw9 i f1 ph3 pv6 mw6 tc center lh-title hyphens-auto',
+  boxes: 'tl dib'
 }
 
 const theme = {
@@ -23,9 +24,14 @@ const Labs = () => (
   >
     <Nav />
     <BigContent className={cx.content}>
+    <span className={cx.boxes}>
+      <BoxedText {...theme}>
+        {'> labs'}
+      </BoxedText>
       <BoxedText {...theme}>
         {'in development'}
       </BoxedText>
+    </span>
     </BigContent>
     <Footer />
   </Layout>
