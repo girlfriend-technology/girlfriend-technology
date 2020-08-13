@@ -88,7 +88,7 @@ exports[`page - index should render 1`] = `
         />
       </svg>
       <span
-        className="f1 measure-narrow lh-title mv0 pa1 tracked-tight "
+        className="f1 measure-narrow lh-title mb1 dib  pa1 tracked-tight "
         style={
           Object {
             "backgroundColor": "#3a0023",
